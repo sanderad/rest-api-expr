@@ -1,0 +1,27 @@
+{
+  "name": "express-midu-rest-api",
+  "version": "1.0.0",
+  "main": "1.https.js",
+  "scripts": {
+    "dev:1": "node --watch 1.https.js",
+    "dev:2": "node --watch 2.routing.js",
+    "dev:3": "node --watch 3.express.js",
+    "dev:4": "node --watch 4.app.js",
+    "start": "node 4.app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.19.2",
+    "zod": "3.23.8"
+  }
+}
